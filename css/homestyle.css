@@ -1,0 +1,87 @@
+/* =============== logo ============= */
+.logo {
+    font-size: 2rem;
+    font-weight: normal;
+    cursor: pointer;
+    color: #111;
+    text-transform: capitalize;
+  }
+/* =============== hero ============= */
+#hero {
+    background-color: #c8cdd1;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero {
+    /* background-image: linear-gradient(to right, rgb(0 0 0 / 53%),rgb(0 0 0 / 52%)), url(../images/main-banner.jpg); */
+    background-image: url(../images/main-banner.jpg);
+    background-position: 0;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* padding: 2rem 10%; */
+    background-color: #000000fa;
+}
+
+.main-text {
+    /* background-color: #999;
+    border-radius: 9px;
+    */
+    padding: 2rem 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text h1{
+    font-size: 10vh;
+    font-weight: normal;
+    color: #fff;
+}
+
+.main-text p{
+    font-size: 2.5vh;
+    font-weight: 600;
+    color: #fff;
+}
+
+@media (max-width:768px){
+    .main-text h1{
+        font-size: 6vw;
+            }
+            .main-text p{
+                font-size: 2vw;
+                font-weight: normal;
+                color: #fff;
+            }
+}
+@media (max-width:300px){
+    .main-text h1{
+        font-size: 6.5vw;
+            }
+}
+
+/* =============== Number ============= */
+
+.number {
+    color: #999;
+    font-size: 8.875rem;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 8.875rem;
+    text-align: center;
+}
+
+
+
+

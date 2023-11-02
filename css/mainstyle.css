@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    background-color: #fdfdfd;
+    color: #111;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    
+}
+/* ========== Icons ========== */
+.bi-bag-fill {font-size: 1.2rem;}
+.bi-person-fill {font-size: 1.3rem;}
+
+/* ========== navigation ========== */
+.nav-link {font-size: 0.9rem;}
+
+/* ========== all title ========== */
+.main-title {
+    font-size: 2.5rem;
+    letter-spacing: 0;
+    line-height: 3.5rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.sub_title {
+    color: #111;
+    font-size: 1.5rem;
+    letter-spacing: -0.006rem;
+    line-height: 2.188rem;
+    margin: 0 0 1rem;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+
+/* ==========buttons========== */
+.button a{
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    color: #111 !important;
+    /* background: #fff; */
+    border-radius: 2.8rem 0;
+    font-size: 0.8rem;
+    border: 0.1rem solid transparent;
+    transition: all 0.40s ease;
+    text-decoration: none;
+    font-weight: normal;
+    border: solid #111 .2rem;
+}
+
+.button a:hover{
+    border: 0.2rem solid #fff;
+    color: #111 !important;
+    background: transparent;
+    
+}
+/* @media (max-width:1400px){
+    .button a{font-size: 1.8vw} 
+} */
+/* ==========footer========== */
+#ftr {
+    background-color: #fff;
+    color: #111;
+}
+
+#ftr a {
+    text-decoration: none;
+    color: #3d3d3d;
+    font-size: 0.899rem;
+    text-transform: lowercase;
+    line-height: 2rem;
+}
+address {
+    color: #3d3d3d;
+    font-size: 0.875rem;
+    text-transform: lowercase;
+    line-height: 2rem;
+}
+
+#ftr-btm  {
+    background-color: #3d3d3d;
+    color: #fff;
+    padding-top: 1.2rem;
+}
+#ftr-btm  a {
+    color: #fff;
+}
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icon a {
+    padding-right: 1rem;
+}
+
+.social-icon .bi {
+    font-size: 1.3rem;
+    transition: all 0.40s ease;
+}
+.social-icon .bi:hover {
+opacity: 0.5;
+
+}
+
+@media (max-width: 768px){
+    .border-end{border-right: none !important;}
+
+}
